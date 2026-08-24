@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "am-class"
+assignment: "html-cv"
+owner:
+  username: "jplex771"
+  id: 246735590
+  accepted_at: "2026-08-24T12:58:49Z"
+source:
+  owner: "CSCI4300-Web-Programming"
+  owner_id: 212650580
+  repo: "html-cv-template"
+  branch: "main"
