@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 5px;
+    background-color: #F2F2ED;
+}
+
+/* Nav bar */
+nav {
+    margin: 0px;
+    background-color: #2A835F;
+    display: flex;
+    gap: 15px;
+}
+nav p {
+    color: lightgreen;
+    padding: 0px 50px;
+}
+.snap-right {
+    margin-left: auto;
+}
+nav p a {
+    text-decoration: none;
+    color: lightgreen
+    
+}
+
+/* Images */
+#profile-pic {
+    display: block;
+    margin: 0px auto;
+    border-radius: 15px;
+
+}
+
+/* Headers and text */
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}

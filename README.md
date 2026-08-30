@@ -110,7 +110,7 @@ Copy the `nav` and `footer` sections from the `index.html page and add a form fo
    - Include form fields:
      - Text input for name (required)
      - Email input (required)
-     - Textarea for message
+     - Text area for message
      - Submit button
 
 5. Create a **Footer section (`<footer>`)**

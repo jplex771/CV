@@ -1,11 +1,11 @@
 {
-  "name": "Your Name",
-  "tagline": "A tag line describing what you are interested in doing.",
-  "headshot": "images/headshot.jpg",
+  "name": "Jean-Pierre de la Reza",
+  "tagline": "I am interested in developing high grade applications designed for the betterment of our society.",
+  "headshot": "images/jadlr_headshot.jpg",
   "contact": {
-    "address": "123 Main St, City, ST 00000",
-    "phone": "(123) 456-7890",
-    "email": "your.email@example.com",
+    "address": "325 Willow Street, Athens, GA, 30601",
+    "phone": "(404) 422-4783)",
+    "email": "jadlr.ps15@proton.me",
     "linkedin": "https://www.linkedin.com/in/yourprofile"
   },
   "education": {
