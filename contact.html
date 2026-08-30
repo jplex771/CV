@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav>
-        <p class="nav-text">Jean-Pierre de la Reza</p>
+        <p class="nonclickable-in-nav">Jean-Pierre de la Reza</p>
         <p class="snap-right"><a class="nav-text" href="index.html">About Jean-Pierre</a></p>
     </nav>
     <h1 class="tangerine-bold">Jean-Pierre de la Reza</h1>
@@ -25,10 +25,16 @@
     <hr>
     <section>
         <form action="https://formsubmit.co/1aebbc33fe43890a28fa0364bc14a7a1" method="POST">
-            <label>Name:</label>
-            <input type="text" name="name" required>
-            <label>Email:</label>
-            <input type="email" name="email" required>
+            <div>
+                <span>
+                    <label>Name:</label>
+                    <input type="text" name="name" required>
+                </span>
+                <span>
+                    <label>Email:</label>
+                    <input type="email" name="email" required>
+                </span>
+            </div>
             <label>Message:</label>
             <textarea
                 name="message"
@@ -41,7 +47,7 @@
     </section>
     <footer>
         &copy; <a class="nav-text" href="index.html">Jean-Pierre de la Reza</a>
-        <a href="https://www.linkedin.com/in/jean-pierre-de-la-reza-16a380416/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a class="nav-text" href="https://www.linkedin.com/in/jean-pierre-de-la-reza-16a380416/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
     </footer>
 </body>
 </html>
