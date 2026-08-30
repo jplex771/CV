@@ -1,3 +1,5 @@
+/**** Main page styling ****/
+/* Background */
 body {
     margin: 0px;
     padding: 5px;
@@ -10,9 +12,9 @@ nav {
     background-color: #2A835F;
     display: flex;
     gap: 15px;
+    border-radius: 13px;
 }
 nav p {
-    color: lightgreen;
     padding: 0px 50px;
 }
 .snap-right {
@@ -20,8 +22,22 @@ nav p {
 }
 nav p a {
     text-decoration: none;
-    color: lightgreen
-    
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #2A835F;
+    padding: 20px 0px;
+    margin-bottom: 5px;
+    border-radius: 13px;
+}
+footer a {
+    text-decoration: none;
 }
 
 /* Images */
@@ -29,13 +45,55 @@ nav p a {
     display: block;
     margin: 0px auto;
     border-radius: 15px;
-
 }
 
-/* Headers and text */
+hr {
+    border: none;
+    height: 6px;
+    border-radius: 3px;
+    background: #092328;
+    margin: 70px 10px;
+}
+
+/**** Text and content structure ****/
+
+/* Text fonts */
+.top-info {
+    text-align: center;
+}
+.nav-text {
+    color: lightgreen;
+}
+
 h1 {
     text-align: center;
 }
 h2 {
     text-align: center;
+    margin: 10px;
+
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
 }
+
+.agbalumo-regular {
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+  }
+
+  .tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
