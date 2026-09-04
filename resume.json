@@ -10,60 +10,65 @@
   },
   "education": {
     "school": "University Name",
-    "gpa": "4.0",
-    "degree": "Bachelor of Science",
-    "graduation_date": "May 2025"
+    "gpa": "3.78",
+    "degree": "Bachelor of Science in Computer Science",
+    "graduation_date": "May 2028"
   },
   "honors_and_awards": [
     {
-      "honor": "Dean's List",
-      "date": "2023"
+      "honor": "Zell Miller Scholarship",
+      "date": "2024"
     },
     {
-      "honor": "Scholarship Award",
-      "date": "2022"
+      "honor": "9th place in Nationals for Technology Student Association (TSA) Animatronics competition",
+      "date": "2024"
+    },
+    {
+      "honor": "8th place in Nationals for TSA Board Game competition",
+      "date": "2023"
     }
   ],
   "skills": [
-    "HTML",
     "Java",
-    "JavaScript",
-    "React"
+    "C",
+    "C#",
+    "C++",
+    "HTML",
+    "CSS"
   ],
   "leadership_and_experience": [
     {
-      "position": "Intern at Company",
-      "date": "2023\u2013Present",
-      "link": "https://company.com"
+      "position": "Student Worker at Bolton dining commons - Currently Student Supervisor",
+      "date": "Sept 2024 - Present",
+      "link": "https://dining.uga.edu/location/bolton-dining-commons/"
     },
     {
-      "position": "Volunteer at Org",
-      "date": "2022\u20132023"
+      "position": "Volunteer camp counselor for a two-week summer camp where I led 5 13-year-old boys",
+      "date": "June 9-21, 2026"
     }
   ],
   "projects": [
     {
-      "title": "Portfolio Website",
-      "image": "images/proj_img1.jpg",
+      "title": "Pong Game",
+      "image": "images/pong-game-card.png",
       "descr": [
-        "Built with HTML/CSS",
-        "Deployed on Netlify"
+        "Based in the Unity Game Engine environment",
+        "Coded in C#"
       ]
     },
     {
-      "title": "Todo App",
-      "image": "images/proj_img2.jpg",
+      "title": "Data Grid Diagonal Sums Calculator",
+      "image": "images/number-grid.png",
       "descr": [
-        "Built in React",
-        "Used localStorage"
+        "Used C and pthreads to code a system utilizing data parallelism"
       ]
     },
     {
-      "title": "Resume Builder",
-      "image": "images/proj_img3.jpg",
+      "title": "Multi-API Image Background Remover App",
+      "image": "images/CatPic-NoBack.jpeg",
       "descr": [
-        "JSON to HTML conversion",
-        "Practice with DOM"
+        "Used Java/JavaFX and 4 RESTful APIs to develop an app that removes the background of an image",
+        "Incorporates an API image retreival system featuring a general image search, random cat pictures, and pictures of random AI generated people"
       ]
     }
   ]
