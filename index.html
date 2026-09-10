@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a8a8e0daeb.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Jean-Pierre de la Reza</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
@@ -12,99 +12,103 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <p class="nonclickable-in-nav">Jean-Pierre de la Reza</p>
-        <p class="snap-right" ><a class="nav-text" href="contact.html">Contact Jean-Pierre</a></p>
-    </nav>
-
-    <h1 class="tangerine-bold">Jean-Pierre de la Reza</h1>
+      <p class="nonclickable-in-nav">Jean-Pierre de la Reza</p>
+      <p><a class="nav-text" href="contact.html">Contact Jean-Pierre</a></p>
+  </nav>
+  <header>
+    <h1>Jean-Pierre de la Reza</h1>
     <img id="profile-pic" src="images/jadlr_headshot.jpg" width="200" alt="Headshot of Jean-Pierre de la Reza">
-    <p class="top-info">
+    <div class="header-text">
+      <p class="address">
         325 Willow Street, Athens, GA, 30601 ◎ (404) 422-4783 ◎ jadlr.ps15@proton.me
-    </p>
-    <p class="top-info"> 
-        I am a programmer interested in learning the depths of the mechanics of software technology, and I wish to use that knowledge to develope software that is easy to use, efficient, and highly benefitial to its users and to society as a whole.
-    </p>
-    <hr>
-    <section class="section">
-        <h2>Education</h2>
-        <dl class="centered-list">
-            <dt>University of Georgia</dt>
-            <dd>3.78</dd>
-            <dt>Bachelar of Science in Computer Science</dt>
-            <dd>May 2028</dd>
-        </dl>
-    </section>
-    <section class="section">
-        <h2>Honors and Awards</h2>
-        <dl class="centered-list">
-            <dt>Zell Miller Scholarship</dt>
-            <dd>2024</dd>
-            <dt>9th place in Nationals for Technology Student Association (TSA) Animatronics competition</dt>
-            <dd>2024</dd>
-            <dt>8th place in Nationals for TSA Board Game competition</dt>
-            <dd>2023</dd>
-        </dl>
-    </section>
-    <section class="section">
-        <div class="center-section-items">
-            <h2>Skills</h2>
-            <ul class="grid">
-                <li>Java</li>
-                <li>C</li>
-                <li>C#</li>
-                <li>C++</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </div>
-    </section>
-    <section class="section">
-        <h2>Leadership and Experience</h2>
-        <dl class="centered-list">
-            <dt>Student Worker at <a href="https://dining.uga.edu/location/bolton-dining-commons/">Bolton Dining Commons</a> - Currently Student Supervisor</dt>
-            <dd>Sept 2024 - Present</dd>
-            <dt>Volunteer camp counselor for a two-week summer camp where I led 5 13-year-old boys</dt>
-            <dd>June 9-21, 2026</dd>
-        </dl>
-    </section>
-    <section class="section">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="proj-card">
-                <img src="images/pong-game-card.png" width="200" alt="Pong Game">
-                <h3>Pong Game</h3>
-                <ul>
-                    <li>Based in the Unity Game Engine environment</li>
-                    <li>Coded in C#</li>
-                    <li>Utilizes 2D vector math for calculating bounce mechanics</li>
-                    <li>Uses C# events for smoother communication between scripts</li>
-                </ul>
-            </div>
-            <div class="proj-card">
-                <img src="images/number-grid.png" width="200" alt="Data Grid Diagonal Sums Calculator">
-                <h3>Data Grid Diagonal Sums Calculator</h3>
-                <ul>
-                    <li>Used C to code a system that calculates the number of diagonal sums adding up to a specified value are in a grid of nombers</li>
-                    <li>Used pthreads to increase the efficiency of the system when dealing with large data grids</li>
-                </ul>
-            </div>
-            <div class="proj-card">
-                <img src="images/CatPic-NoBack.jpeg" width="200" alt="Background Remover App">
-                <h3>Multi-API Image Background Remover App</h3>
-                <ul>
-                    <li>Used Java/JavaFX and 4 RESTful APIs to develop an app that removes the background of an image</li>
-                    <li>Incorporates an API image retreival system featuring a general image search, random cat pictures, and pictures of random AI generated people</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <span>&copy;</span>
-        <span><a class="nav-text" href="contact.html">Jean-Pierre de la Reza</a></span>
-        <span><a class="nav-text" href="https://www.linkedin.com/in/jean-pierre-de-la-reza-16a380416/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a></span>
-    </footer>
-</body>
+      </p>
+      <p class="tagline"> 
+          I am a programmer interested in learning the depths of the mechanics of software technology, and I wish to use that knowledge to develope software that is easy to use, efficient, and highly benefitial to its users and to society as a whole.
+      </p>
+    </div>
+    
+  </header>
+  <hr>
+  <section>
+      <h3>Education</h3>
+      <dl>
+          <dt>University of Georgia</dt>
+          <dd>3.78</dd>
+          <dt>Bachelar of Science in Computer Science</dt>
+          <dd>May 2028</dd>
+      </dl>
+  </section>
+  <section>
+      <h3>Honors and Awards</h3>
+      <dl>
+          <dt>Zell Miller Scholarship</dt>
+          <dd>2024</dd>
+          <dt>9th place in Nationals for Technology Student Association (TSA) Animatronics competition</dt>
+          <dd>2024</dd>
+          <dt>8th place in Nationals for TSA Board Game competition</dt>
+          <dd>2023</dd>
+      </dl>
+  </section>
+  <section>
+      <div class="center-section-items">
+          <h3>Skills</h3>
+          <ul class="grid">
+              <li>Java</li>
+              <li>C</li>
+              <li>C#</li>
+              <li>C++</li>
+              <li>HTML</li>
+              <li>CSS</li>
+          </ul>
+      </div>
+  </section>
+  <section>
+      <h3>Leadership and Experience</h3>
+      <dl>
+          <dt>Student Worker at <a href="https://dining.uga.edu/location/bolton-dining-commons/">Bolton Dining Commons</a> - Currently Student Supervisor</dt>
+          <dd>Sept 2024 - Present</dd>
+          <dt>Volunteer camp counselor for a two-week summer camp where I led 5 13-year-old boys</dt>
+          <dd>June 9-21, 2026</dd>
+      </dl>
+  </section>
+  <section>
+      <h3>Projects</h3>
+      <div class="three-col">
+          <div class="card">
+              <img src="images/pong-game-card.png" width="200" alt="Pong Game">
+              <h4>Pong Game</h4>
+              <ul>
+                  <li>Based in the Unity Game Engine environment</li>
+                  <li>Coded in C#</li>
+                  <li>Utilizes 2D vector math for calculating bounce mechanics</li>
+                  <li>Uses C# events for smoother communication between scripts</li>
+              </ul>
+          </div>
+          <div class="card">
+              <img src="images/number-grid.png" width="200" alt="Data Grid Diagonal Sums Calculator">
+              <h4>Data Grid Diagonal Sums Calculator</h4>
+              <ul>
+                  <li>Used C to code a system that calculates the number of diagonal sums adding up to a specified value are in a grid of nombers</li>
+                  <li>Used pthreads to increase the efficiency of the system when dealing with large data grids</li>
+              </ul>
+          </div>
+          <div class="card">
+              <img src="images/CatPic-NoBack.jpeg" width="200" alt="Background Remover App">
+              <h4>Multi-API Image Background Remover App</h4>
+              <ul>
+                  <li>Used Java/JavaFX and 4 RESTful APIs to develop an app that removes the background of an image</li>
+                  <li>Incorporates an API image retreival system featuring a general image search, random cat pictures, and pictures of random AI generated people</li>
+              </ul>
+          </div>
+      </div>
+  </section>
+  <footer>
+      <span>&copy;</span>
+      <span><a class="nav-text" href="contact.html">Jean-Pierre de la Reza</a></span>
+      <span><a class="nav-text" href="https://www.linkedin.com/in/jean-pierre-de-la-reza-16a380416/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a></span>
+  </footer>
+  </body>
 </html>
