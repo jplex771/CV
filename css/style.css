@@ -64,7 +64,7 @@ header {
 }
 
 header h1 {
-  text-shadow: 3px 3px 5px rgb(92, 118, 103);
+  text-shadow: 2px 2px 3px rgb(71, 106, 86);
   text-align: center;
   margin: 0px;
 
@@ -72,14 +72,15 @@ header h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 70px;
-  color: #092328
+  color: #76888c
 }
 
 header img {
   display: block;
-  margin: 0px auto;
-  border-radius: 15px;
+  margin: 20px auto 40px auto;
+  border-radius: 80px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: .1px solid rgb(202, 245, 252);
 }
 
 .address {
@@ -92,9 +93,17 @@ header img {
 }
 
 .header-text {
-  background-color: rgb(200, 197, 176);
-  border-block: 4px solid rgb(184, 153, 3);
+  background-color: rgba(200, 197, 176, 0.87);
+  border-block: 4px solid rgba(184, 154, 3, 0.874);
+}
 
+.header-text-contact {
+  background-color: rgba(200, 197, 176, 0.581);
+  border-block: 4px solid rgba(184, 154, 3, 0.626);
+  margin-top: 10px;
+}
+.header-text-contact p {
+  margin: 0px;
 }
 
 /************* Sections ********************/
